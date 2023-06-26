@@ -1,6 +1,10 @@
 var login = document.getElementById('login');
 login.addEventListener("click", function(){
-    login.innerHTML = "Logout";
+    if (login.innerText == "Login") {
+        login.innerText = "Logout";
+    } else {
+        login.innerText = "Login"
+    }
 })
 
 var like = document.getElementById('like');
