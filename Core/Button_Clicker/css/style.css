@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Styling navbar */
+.navbar{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #CCCCCC;
+    padding: 1%;
+    width: 80%;
+    margin-bottom: 2%;
+}
+h2{
+    font-weight: 500;
+}
+input{
+    padding: 0.5%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.login{
+    padding: 4px 8px;
+    border: none;
+    background-color:#2B78E4;
+    color: white;
+    box-shadow: 1px 5px 5px 1px rgb(29, 28, 28);
+}
+/* Container Section  */
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.box-left{
+    flex: 2;
+}
+.card{
+display: flex;
+align-items:center;
+border:3px solid #6D6D6D;
+padding: 3% 2%;
+margin: 0 3% 3% 0;
+}
+.like{
+    background-color: aqua;
+    padding: 2px 20px;
+    margin-top: 10px;
+    background-color: #FFD966;
+    box-shadow: 1px 5px 5px 1px rgb(29, 28, 28);
+}
+.box-right{
+    flex: 1;
+}
+/* Definition content */
+.definition{
+    border:3px solid #6D6D6D;
+    padding: 3% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.btn-def{
+    padding: 4px 25px;
+    background-color: #93C47D;
+    box-shadow: 1px 5px 5px 1px rgb(29, 28, 28);
+    margin: 6% 0;
+}
