@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Conections</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<header>
+    <div class="navbar">
+        <div class="links">
+            <h2 class="logo">Profile</h2>
+            <ul>
+                <li class="link">Home</li>
+                <li class="link">My Profile</li>
+                <li class="link">Find Conections</li>
+            </ul>
+        </div>
+        <div class="btn-section">
+            <button class="logout">Sign Out</button>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <div class="user-col">
+            <div class="user-card">
+                <div class="card-header">
+                    <img class="user-icon" src="icons/images/alayne-s.jpg" alt="user icom">
+                </div>
+                <div class="card-description">
+                    <h3 id="user-name">Jane Doe</h3>
+                    <h4><i class="bi bi-geo-alt-fill"></i>
+                        Seatle</h4>
+                    <p>Developer | Engineer | Problem Solver <br>
+                    Master of Shadows and the interntet <br>
+                    <a id="profile" onclick="profile()" href="#"><i class="bi bi-gear-fill"></i></i>
+                        edit profile</a></p>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="education-header">
+                    <h3>Education</h3>
+                </div>
+                <div class="education-desc">
+                    <h2>Coding Dojo - Full Stack Booctamp</h2>
+                    <span class="date">Jun 2023 - Sep 2023</span>
+                    <p>Triple black belt in Phython, Mern, and C#</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-col">
+            <div class="info-request">
+                <div class="request-header">
+                    <h3><span class="circle request">2</span>  Connection Request</h3>
+                </div>
+                <div class="request-body">
+                    <img src="icons/images/adrien-s.jpg" alt="request-img" class="request-img">
+                    <h4>Adrien S</h4>
+                    <span class="icons">
+                        <i class="accept bi bi-check-circle-fill bi-lg"></i>
+                        <i class="delete bi bi-x-circle-fill"></i>
+                    </span><br>
+                </div>
+                <div class="request-body">
+                    <img src="icons/images/arry-s.jpg" alt="request-img" class="request-img">
+                    <h4>Arry S</h4>
+                    <span class="icons">
+                        <i class="accept bi bi-check-circle-fill bi-lg"></i>
+                        <i class="delete bi bi-x-circle-fill"></i>
+                    </span><br>
+                </div>
+            </div>
+
+            <div class="info-request">
+                <div class="request-header">
+                    <h3><span class="circle conections">418</span> Your Conections</h3>
+                </div>
+                <div class="conections-body">
+                    <img src="icons/images/todd-s.jpg" alt="request-img" class="conections-img">
+                    <h4>Todd A</h4>
+                </div>
+                <div class="conections-body">
+                    <img src="icons/images/phil-s.jpg" alt="conections-img" class="conections-img">
+                    <h4>Phil S</h4>
+                </div><div class="conections-body">
+                    <img src="icons/images/jane-m.jpg" alt="conections-img" class="conections-img">
+                    <h4>Jjane M</h4>
+                </div>
+                <hr class="divider">
+                <a class="view-more" href="#">View More</a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
