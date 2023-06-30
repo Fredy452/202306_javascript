@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9FC5F8;
+    padding: 20px;
+    color: white;
+}
+ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+/* top section */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+.temp{
+    display: flex;
+}
+select{
+    margin-left: 5px;
+}
+.divider{
+    border: 1px solid black;
+}
+/* weather section */
+.weather-card{
+    display: flex;
+}
+.card{
+    flex: 1;
+    margin: 2%;
+    background-color: #EEEEEE;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+h3, p, img{
+    margin: 10px;
+}
+.temperature{
+    display: flex;
+    justify-content: space-around;
+}
+.max{
+    color: red;
+    font-weight: 600;
+}
+.min{
+    color: #2B78E4;
+    font-weight: 600;
+}
+/* cookie section */
+.cookie{
+    display: flex;
+    position: fixed;
+    width: 80%;
+    border: 2px solid black;
+    align-items:center;
+}
+.cookie p{
+    margin: 0;
+    font-size: small;
+    color: black;
+}
+button{
+    width: 60px;
+    margin: 10px;
+    padding: 2px;
+    background-color: #9FC5F8;
+    box-shadow: 4px 4px rgba(5, 5, 5, 0.623);
+}

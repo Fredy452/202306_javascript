@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>DojoWeather</h2>
+        <ul>
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="top">
+            <h2 class="place">San Jose</h2>
+            <div class="temp">
+                <p>show temperature in </p>
+                <select name="check" id="check">
+                    <option value="celcius">°C</option>
+                    <option value="farenheit">°F</option>
+                </select>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="weather-card">
+            <div class="card">
+                <h3>Today</h3>
+                <div class="img">
+                    <img src="icons/some_rain.png" alt="cloudy">
+                </div>
+                <p class="desc">same rain</p>
+                <p class="temperature">
+                    <span class="max">24°</span> <span class="min">18°</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Tomorrow</h3>
+                <div class="img">
+                    <img src="icons/some_sun.png" alt="sunny">
+                </div>
+                <p class="desc">same sun</p>
+                <p class="temperature">
+                    <span class="max">27°</span> <span class="min">19°</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Friday</h3>
+                <div class="img">
+                    <img src="icons/some_clouds.png" alt="clouds">
+                </div>
+                <p class="desc">same clouds</p>
+                <p class="temperature">
+                    <span class="max">21°</span> <span class="min">16°</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Saturday</h3>
+                <div class="img">
+                    <img src="icons/some_sun.png" alt="sunny">
+                </div>
+                <p class="desc">same sun</p>
+                <p class="temperature">
+                    <span class="max">26°</span> <span class="min">21°</span>
+                </p>
+            </div>
+        </div>
+        <!-- cookie section -->
+        <div class="cookie">
+            <div class="cookie-img">
+                <img src="icons/cookie.png" alt="cookie">
+            </div>
+            <div class="cookie-desc">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible) to perzonalize contnet and ads, to provide social media feactures and to analyse our trafic. <a href="#">Read more...</a></p>
+            </div>
+            <div class="btn">
+                <button onclick="removeCookie(this)">I Accept</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
