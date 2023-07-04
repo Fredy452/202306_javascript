@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La tiendita</title>
+    <!-- CSS style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Título del sitio web -->
+        <h1>🛍️ La tiendita</h1>
+
+        <!-- Formulario con la selección -->
+        <form>
+            <label>PYG a USD (y al revés)</label>
+            <select onchange="convertir(this)">
+                <option>PYG</option>
+                <option>USD</option>
+            </select>
+        </form>
+
+        <!-- Contenido -->
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="card">
+                <p class="card-title">Desktop computer</p>
+                <p class="card-image">🖥️</p>
+                <p class="card-price">
+                    <span>$</span>
+                    <span id="valor1">6000</span>
+                    <span id="tipo1">PYG 🇵🇾</span>
+                </p>
+                <button onclick="like(0)">
+                    <span id="like1">0</span>
+                    <span>like</span>
+                    <span title="Dale like!">🧡</span>
+                </button>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="card">
+                <p class="card-title">Camera</p>
+                <p class="card-image">📷</p>
+                <p class="card-price">
+                    <span>$</span>
+                    <span id="valor2">8000</span>
+                    <span id="tipo2">PYG 🇵🇾</span>
+                </p>
+                <button onclick="like(1)">
+                    <span id="like2">0</span>
+                    <span>like</span>
+                    <span title="Dale like!">🧡</span>
+                </button>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="card">
+                <p class="card-title">Joystick</p>
+                <p class="card-image">🕹️</p>
+                <p class="card-price">
+                    <span>$</span>
+                    <span id="valor3">12000</span>
+                    <span id="tipo3">PYG 🇵🇾</span>
+                </p>
+                <button onclick="like(2)">
+                    <span id="like3">0</span>
+                    <span>like</span>
+                    <span title="Dale like!">🧡</span>
+                </button>
+            </div>
+            <!-- Tarjeta 4 -->
+            <div class="card">
+                <p class="card-title">Mobile phone</p>
+                <p class="card-image">📱</p>
+                <p class="card-price">
+                    <span>$</span>
+                    <span id="valor4">20000</span>
+                    <span id="tipo4">PYG 🇵🇾</span>
+                </p>
+                <button onclick="like(3)">
+                    <span id="like4">0</span>
+                    <span>like</span>
+                    <span title="Dale like!">🧡</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
